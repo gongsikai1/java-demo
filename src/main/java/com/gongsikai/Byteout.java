@@ -3,7 +3,7 @@ package com.gongsikai;
 import lombok.Data;
 
 @Data
-public class Byteout {
+public class Byteout implements ByteoutInterface {
     private final String domain = "https://byteout.cn";
     private int bugCount = 1;
 
